@@ -1,6 +1,7 @@
 {
+  "quality": "human"
   "locales": [ "zh-cn", "de-de" ],
   "files": {
-    "md": "virtualization/**/*.md"
+    "capsmd": "virtualization/**/*.md"
   }
 }
