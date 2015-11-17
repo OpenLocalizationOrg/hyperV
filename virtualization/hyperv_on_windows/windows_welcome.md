@@ -1,4 +1,4 @@
-# Hyper-V on Windows 10.44
+# Hyper-V on Windows 10.45
 
 ![image](media/1.png)
 
