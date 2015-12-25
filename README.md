@@ -27,7 +27,7 @@ https://int.msdn.microsoft.com/en-us/virtualization/hyperv_on_windows/about/hype
 > If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.
 
 Validation and Preview
-----------------------
+-----------------------
 
 Before pushing your changes to remote, you can build and preview your doc in local to discover problems early:
 
