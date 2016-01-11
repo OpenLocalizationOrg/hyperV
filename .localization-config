@@ -1,9 +1,10 @@
 {
-  "locales": [ "zh-cn", "de-de", "ja-jp" ],
+  "locales": [ "zh-cn", "de-de", "ja-jp", "zh-tw" ],
   "files": [
 	"virtualization/**/*.md",
 	"virtualization/*.md"
   ],
   "includeDependencies": true,
-  "autoPush": true
+  "autoPush": true,
+  "xliffVersion": "2.0"
 }
