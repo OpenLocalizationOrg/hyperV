@@ -28,7 +28,7 @@ Relevant sections:
 	
 If Hyper-V is already enabled, the Hyper-V Requirements section will read:  
 ```
-Hyper-V Requirements: A hypervisor has been detected. Features required for Hyper-V will not be displayed..
+Hyper-V Requirements: A hypervisor has been detected. Features required for Hyper-V will not be displayed.
 ```
 
 ## Next Step: 
