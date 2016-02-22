@@ -1,10 +1,25 @@
 {
-  "locales": [ "zh-cn", "de-de", "ja-jp", "zh-tw" ],
-  "files": [
-	"virtualization/**/*.md",
-	"virtualization/*.md"
+  "filters": [
+    {
+      "files": [ "virtualization/hyperv_on_windows/*.md" ],
+      "priorities": [
+        {
+          "priority": "ht-test",
+          "locales": [ "zh-cn", "de-de"]
+        }
+      ]
+    },
+    {
+      "files": [ "virtualization/windowscontainers/*.md" ],
+      "priorities": [
+        {
+          "priority": "mt-test",
+          "locales": [ "ja-jp", "zh-tw"]
+        }
+      ]
+    }
   ],
   "includeDependencies": true,
   "autoPush": true,
-  "xliffVersion": "2.0"
+  "xliffVersion": "1.2"
 }
