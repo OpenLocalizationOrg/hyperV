@@ -6,6 +6,10 @@
         {
           "priority": "ht-test",
           "locales": [ "zh-cn", "de-de"]
+        },
+        {
+          "priority": "mt-test",
+          "locales": [ "ja-jp", "zh-tw"]
         }
       ]
     },
@@ -13,8 +17,12 @@
       "files": [ "virtualization/windowscontainers/*.md" ],
       "priorities": [
         {
-          "priority": "mt-test",
+          "priority": "ht-test",
           "locales": [ "ja-jp", "zh-tw"]
+        },
+        {
+          "priority": "mt-test",
+          "locales": [ "zh-cn", "de-de"]
         }
       ]
     }
