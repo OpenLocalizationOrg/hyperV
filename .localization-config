@@ -1,7 +1,7 @@
 {
   "filters": [
     {
-      "files": [ "virtualization/hyperv_on_windows/*.md", "virtualization/hyperv_on_windows/**/*.md" ],
+      "files": [ "virtualization/windowscontainers/*.md", "virtualization/windowscontainers/**/*.md" ],
       "priorities": [
         {
           "priority": "ht-test",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "files": [ "virtualization/windowscontainers/*.md", "virtualization/windowscontainers/**/*.md" ],
+      "files": [ "virtualization/hyperv_on_windows/*.md", "virtualization/hyperv_on_windows/**/*.md" ],
       "priorities": [
         {
           "priority": "ht-test",
