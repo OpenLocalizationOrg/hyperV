@@ -1,15 +1,11 @@
 {
   "filters": [
     {
-      "files": [ "virtualization/windowscontainers/*.md", "virtualization/windowscontainers/**/*.md" ],
+      "files": [ "virtualization/windowscontainers/EULA.md"],
       "priorities": [
         {
-          "priority": "ht-test",
-          "locales": [ "zh-cn", "de-de"]
-        },
-        {
-          "priority": "mt-test",
-          "locales": [ "ja-jp", "zh-tw"]
+          "priority": "ht-legal",
+          "locales": [ "zh-cn", "de-de", "ja-jp", "zh-tw"]
         }
       ]
     },
