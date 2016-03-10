@@ -12,7 +12,7 @@ get-command –module hyper-v | out-gridview
 ```
   You get something like this:
 
-  ![](media\command_grid.png)
+  ![](media/command_grid.png)
 
 3. To learn more about a particular PowerShell command use `get-help`. For instance running the following command will return information about the `get-vm` Hyper-V command.
 
@@ -21,7 +21,7 @@ get-help get-vm
 ```
  The output shows you how to structure the command, what the required and optional parameters are, and the aliases that you can use.
 
- ![](media\get_help.png)
+ ![](media/get_help.png)
 
 
 ### Return a list of virtual machines
