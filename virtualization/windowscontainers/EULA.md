@@ -1,5 +1,7 @@
+---
 ms.ContentId: 24f01c9c-55e9-4f08-b3b4-714465d01ad8
 title: Windows Server EULA
+---
 
 # Windows Server EULA
 
