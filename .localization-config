@@ -5,7 +5,7 @@
       "priorities": [
         {
           "priority": "ht-legal",
-          "locales": [ "zh-cn", "de-de", "ja-jp", "zh-tw"]
+          "locales": [ "zh-cn", "de-de", "ja-jp", "zh-tw", "ko-ko"]
         }
       ]
     },
