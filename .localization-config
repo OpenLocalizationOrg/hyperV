@@ -1,29 +1,43 @@
 {
-  "filters": [
-    {
-      "files": [ "virtualization/windowscontainers/EULA.md"],
-      "priorities": [
-        {
-          "priority": "ht-legal",
-          "locales": [ "zh-cn", "de-de", "ja-jp", "zh-tw", "ko-kr", "ko-ko"
-        ]
-        }
-      ]
-    },
-    {
-      "files": [ "virtualization/hyperv_on_windows/*.md", "virtualization/hyperv_on_windows/**/*.md" ],
-      "priorities": [
-        {
-          "priority": "ht-test",
-          "locales": [ "ja-jp", "zh-tw"]
-        },
-        {
-          "priority": "mt-test",
-          "locales": [ "zh-cn", "de-de"]
-        }
-      ]
-    }
-  ],
+   "filters":[  
+      {  
+         "metadata":{  
+            "ms.topic":[  
+               "hero-topics",
+               "getting-started-topics"
+            ]
+         },
+         "priorities":[  
+            {  
+               "priority":"high",
+               "locales":[  
+                  "de-de",
+                  "nl-nl",
+                  "zh-tw",
+               ]
+            }
+         ]
+      },
+      {  
+         "files":[  
+            "**/*.md",
+            "**/**/*.md"
+         ],
+         "priorities":[  
+            {  
+               "priority":"ht",
+               "locales":[  
+               
+                  "ja-jp",
+                  "zh-tw",
+                  "nl-nl",
+                  "pl-pl",
+                  "pt-br"
+               ]
+            }
+         ]
+      }
+   ],
   "includeDependencies": true,
   "autoPush": true,
   "xliffVersion": "1.2"
