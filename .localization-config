@@ -3,8 +3,8 @@
       {  
          "metadata":{  
             "ms.topic":[  
-               "hero-topics",
-               "getting-started-topics"
+               "hero-article",
+               "get-started-article"
             ]
          },
          "priorities":[  
@@ -25,7 +25,7 @@
          ],
          "priorities":[  
             {  
-               "priority":"ht",
+               "priority":"non_HI",
                "locales":[  
                
                   "ja-jp",
