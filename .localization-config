@@ -20,6 +20,7 @@
       },
       {  
          "files":[  
+            "!articles/app-service/*.md",
             "**/*.md"
          ],
          "priorities":[  
