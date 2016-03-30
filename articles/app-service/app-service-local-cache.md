@@ -118,3 +118,5 @@ With local cache, your logs and data folders do look a little different. However
 ### I have Local Cache enabled but my web application still gets restarted. Why is that? I thought Local Cache helped with frequent app restarts. 
 
 Local Cache does help prevent storage related web application restarts. However, your web application could still undergo restarts during planned infrastructure upgrades of the VM. The overall app restarts experienced with Local Cache enabled should be fewer.
+
+Test
