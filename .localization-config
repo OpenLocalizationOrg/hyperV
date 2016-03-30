@@ -20,7 +20,7 @@
       },
       {  
          "files":[  
-            "!articles/app-service/*.md",
+            "!articles/app-service/app-service-scale*.md",
             "**/*.md"
          ],
          "priorities":[  
