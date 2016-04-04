@@ -1,20 +1,20 @@
 <properties 
-    pageTitle="Upload a Microsoft Azure Management API Certificate into the Portal" 
-    description="Learn how to upload athe Management API certficate in Microsoft Azure" 
-    services="cloud-services" 
-    documentationCenter=".net" 
-    authors="Thraka" 
-    manager="timlt" 
-    editor=""/>
+	pageTitle="Upload a Microsoft Azure Management API Certificate into the Portal" 
+	description="Learn how to upload athe Management API certficate in Microsoft Azure" 
+	services="cloud-services" 
+	documentationCenter=".net" 
+	authors="Thraka" 
+	manager="timlt" 
+	editor=""/>
 
 <tags 
-    ms.service="na" 
-    ms.workload="tbd" 
-    ms.tgt_pltfrm="na" 
-    ms.devlang="na" 
-    ms.topic="article" 
-    ms.date="10/01/2015"
-    ms.author="adegeo"/>
+	ms.service="na" 
+	ms.workload="tbd" 
+	ms.tgt_pltfrm="na" 
+	ms.devlang="na" 
+	ms.topic="article" 
+	ms.date="10/01/2015"
+	ms.author="adegeo"/>
 
 
 # Upload an Azure Management API Management Certificate
@@ -25,7 +25,7 @@ Management certificates allow you to authenticate with the Service Management AP
 
 More information about Azure certificates (including creating a self-signed certificate) is [available](cloud-services/cloud-services-certs-create.md#what-are-management-certificates) to you if you need it.
 
-You can also use [Azure Active Directory](http://azure.microsoft.com/documentation/services/active-directory/) to authenticate client-code for automation purposes.
+You can also use [Azure Active Directory](https://azure.microsoft.com/documentation/services/active-directory/) to authenticate client-code for automation purposes.
 
 ## Upload a management certificate
 
@@ -51,4 +51,3 @@ Once you have a management certficate created, (.cer file with only the public k
 ## Next steps
 
 Now that you have a management certficate associated with a subscription, you can (after you have installed the matching certificate locally) programatically connect to the [Service Management REST API](https://msdn.microsoft.com/library/azure/mt420159.aspx) and automate the various Azure resources that are also associated with that subscription. 
-
