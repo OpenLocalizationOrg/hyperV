@@ -10,4 +10,3 @@ In this scenario you will create a VNet named **TestVNet** with a reserved CIDR 
 - **BackEnd**, using **192.168.2.0/24** as its CIDR block.
 
  
-

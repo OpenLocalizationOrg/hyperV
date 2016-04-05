@@ -42,5 +42,3 @@
     |7|EBOD controller 1|
     |8|EBOD enclosure|
     |9|PDUs|
-
-

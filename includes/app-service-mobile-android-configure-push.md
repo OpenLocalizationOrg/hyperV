@@ -11,5 +11,3 @@ The Mobile App backend is now configured to use GCM to send push notifications t
 
 
 <!-- images -->
-
-

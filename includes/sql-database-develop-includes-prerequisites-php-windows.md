@@ -1,7 +1,4 @@
 
-## Prerequisites
-
-
 To run the PHP code sample given in this topic, your client computer must have the following software items installed:
 
 
@@ -28,6 +25,4 @@ meet-bhagdev
 DateOfLatestFreshnessVerification = 2015-07-10
 DateOfLatestContentUpdate = 2015-07-10
 -->
-
-
 

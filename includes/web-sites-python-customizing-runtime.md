@@ -14,5 +14,3 @@ are:
 - python-3.4
 
 If the micro version (third digit) is specified, it is ignored.
-
-

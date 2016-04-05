@@ -11,4 +11,3 @@ By default, the new container is private and you must specify your storage acces
 
 
 [Image1]: ./media/vs-create-blob-container-in-server-explorer/vs-storage-create-blob-containers-in-Server-Explorer.png
-

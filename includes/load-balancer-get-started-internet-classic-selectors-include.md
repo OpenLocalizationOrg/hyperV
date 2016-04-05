@@ -4,5 +4,3 @@
 - [PowerShell](load-balancer-get-started-internet-classic-ps.md)
 - [Azure CLI](load-balancer-get-started-internet-classic-cli.md)
 - [Azure Cloud Services](load-balancer-get-started-internet-classic-cloud.md)
-
-

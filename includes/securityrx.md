@@ -815,5 +815,3 @@ application is hosted on Azure Virtual Machines.
 
 [Web SSO Design]: http://technet.microsoft.com/library/dd807033(WS.10).aspx
 [Federated Web SSO Design]: http://technet.microsoft.com/library/dd807050(WS.10).aspx
-
-

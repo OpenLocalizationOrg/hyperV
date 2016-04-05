@@ -10,5 +10,3 @@ Next, you need to change the way that push notifications are registered so that 
 [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
 UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound];
 ```
-
-

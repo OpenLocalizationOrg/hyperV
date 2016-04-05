@@ -1,4 +1,4 @@
-## What is Blob Storage
+## What is Blob Storage?
 
 Azure Blob storage is a service for storing large amounts of
 unstructured data, such as text or binary data, that can be accessed from anywhere in the world via
@@ -29,11 +29,11 @@ The Blob service contains the following components:
 
 -   **Blob:** A file of any type and size. Azure Storage offers three types of blobs: block blobs, page blobs, and append blobs.
     
-    *Block blobs* are ideal for storing text or binary files, such as documents and media files. *Append blobs* are similar to block blobs in that they are made up of blocks, but they are optimized for append operations, so they are useful for logging scenarios. A single block blob or append blob can contain up to 50,000 blocks of up to 4 MB each, for a total size of slightly more than 195 GB (4 MB X 50,000).
+	*Block blobs* are ideal for storing text or binary files, such as documents and media files. *Append blobs* are similar to block blobs in that they are made up of blocks, but they are optimized for append operations, so they are useful for logging scenarios. A single block blob or append blob can contain up to 50,000 blocks of up to 4 MB each, for a total size of slightly more than 195 GB (4 MB X 50,000).
     
-    *Page blobs* can be up to 1 TB in size, and are more efficient for frequent read/write operations. Azure Virtual Machines use page blobs as OS and data disks.
+	*Page blobs* can be up to 1 TB in size, and are more efficient for frequent read/write operations. Azure Virtual Machines use page blobs as OS and data disks.
 
-    For more information about blobs, see [Understanding Block Blobs, Page Blobs, and Append Blobs](https://msdn.microsoft.com/library/azure/ee691964.aspx).
+	For more information about blobs, see [Understanding Block Blobs, Append Blobs, and Page Blobs](https://msdn.microsoft.com/library/azure/ee691964.aspx).
 
 ## Naming and referencing containers and blobs
 
@@ -66,15 +66,13 @@ A blob name must conform to the following rules:
 
 The Blob service is based on a flat storage scheme. You can create a virtual hierarchy by specifying a character or string delimiter within the blob name to create a virtual hierarchy. For example, the following list shows some valid and unique blob names:
 
-    /a
-    /a.txt
-    /a/b
-    /a/b.txt
+	/a
+	/a.txt
+	/a/b
+	/a/b.txt
 
 You can use the delimiter character to list blobs hierarchically.
 
 
 [Blob1]: ./media/storage-blob-concepts-include/blob1.jpg
-
-
 

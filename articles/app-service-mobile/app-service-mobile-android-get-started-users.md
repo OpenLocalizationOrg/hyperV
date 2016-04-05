@@ -1,26 +1,24 @@
 <properties
-    pageTitle="Add authentication on Android with Mobile Apps| Azure App Service"
-    description="Learn how to use Mobile Apps in Azure App Service to authenticate users of your Android app through a variety of identity providers, including Google, Facebook, Twitter, and Microsoft."
-    services="app-service\mobile"
-    documentationCenter="android"
-    authors="ggailey777"
-    manager="dwrede"
-    editor=""/>
+	pageTitle="Add authentication on Android with Mobile Apps| Azure App Service"
+	description="Learn how to use Mobile Apps in Azure App Service to authenticate users of your Android app through a variety of identity providers, including Google, Facebook, Twitter, and Microsoft."
+	services="app-service\mobile"
+	documentationCenter="android"
+	authors="ggailey777"
+	manager="dwrede"
+	editor=""/>
 
 <tags
-    ms.service="app-service-mobile"
-    ms.workload="mobile"
-    ms.tgt_pltfrm="mobile-android"
-    ms.devlang="java"
-    ms.topic="article"
-    ms.date="12/06/2015"
-    ms.author="glenga"/>
+	ms.service="app-service-mobile"
+	ms.workload="mobile"
+	ms.tgt_pltfrm="mobile-android"
+	ms.devlang="java"
+	ms.topic="article"
+	ms.date="02/04/2016"
+	ms.author="glenga"/>
 
 # Add authentication to your Android app
 
 [AZURE.INCLUDE [app-service-mobile-selector-get-started-users](../../includes/app-service-mobile-selector-get-started-users.md)]
-&nbsp;  
-[AZURE.INCLUDE [app-service-mobile-note-mobile-services](../../includes/app-service-mobile-note-mobile-services.md)]
 
 ## Summary
 
@@ -36,7 +34,7 @@ In this tutorial, you add authentication to the todolist quickstart project on A
 
 + In Android Studio, open the project that you created when you completed the tutorial [Get started with Mobile Apps], then from the **Run** menu click **Run app** and verify that an unhandled exception with a status code of 401 (Unauthorized) is raised after the app starts.
 
-     This happens because the app attempts to access the backend as an unauthenticated user, but the _TodoItem_ table now requires authentication.
+	 This happens because the app attempts to access the backend as an unauthenticated user, but the _TodoItem_ table now requires authentication.
 
 Next, you will update the app to authenticate users before requesting resources from the Mobile App backend.
 
@@ -52,11 +50,11 @@ Next, you will update the app to authenticate users before requesting resources 
 
 Now that you completed this basic authentication tutorial, consider continuing on to one of the following tutorials:
 
-+ [Add push notifications to your Android app](app-service-mobile-android-get-started-push.md)   
++ [Add push notifications to your Android app](app-service-mobile-android-get-started-push.md)
   Learn how to add push notifications support to your app and configure your Mobile App backend to use Azure Notification Hubs to send push notifications.
 
-+ [Enable offline sync for your Android app](app-service-mobile-android-get-started-offline-data.md)  
-  Learn how to add offline support your app using an Mobile App backend. Offline sync allows end-users to interact with a mobile app&mdash;viewing, adding, or modifying data&mdash;even when there is no network connection. 
++ [Enable offline sync for your Android app](app-service-mobile-android-get-started-offline-data.md)
+  Learn how to add offline support your app using an Mobile App backend. Offline sync allows end-users to interact with a mobile app&mdash;viewing, adding, or modifying data&mdash;even when there is no network connection.
 
 
 
@@ -71,5 +69,3 @@ Now that you completed this basic authentication tutorial, consider continuing o
 
 <!-- URLs. -->
 [Get started with Mobile Apps]: app-service-mobile-android-get-started.md
-
-

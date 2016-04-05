@@ -1,4 +1,4 @@
-The following table lists quota information specific to Service Bus messaging. Event Hubs limits are included in this table, but for more specific information about Event Hubs, see [Event Hubs Pricing](http://azure.microsoft.com/pricing/details/event-hubs/). For information about pricing and other quotas for Service Bus, see the [Service Bus Pricing](http://azure.microsoft.com/pricing/details/service-bus/) overview.
+The following table lists quota information specific to Service Bus messaging. Event Hubs limits are included in this table, but for more specific information about Event Hubs, see [Event Hubs Pricing](https://azure.microsoft.com/pricing/details/event-hubs/). For information about pricing and other quotas for Service Bus, see the [Service Bus Pricing](https://azure.microsoft.com/pricing/details/service-bus/) overview.
 
 |Quota Name|Scope|Type|Behavior when exceeded|Value|
 |---|---|---|---|---|
@@ -25,4 +25,3 @@ The following table lists quota information specific to Service Bus messaging. E
 |Size of SQL filters/actions|System-wide|Static|Subsequent requests for creation of additional filters will be rejected and an exception will be received by the calling code.|Maximum length of filter condition string: 1024 (1K).<br /><br />Maximum length of rule action string: 1024 (1K).<br /><br />Maximum number of expressions per rule action: 32.|
 
 [Azure classic portal]: http://manage.windowsazure.com
-

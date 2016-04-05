@@ -27,5 +27,3 @@
    ![](./media/mobile-services-dotnet-adal-register-client/mobile-services-native-add-permissions.png)
 
 Your mobile service is now configured in AAD to receive single sign-on logins from your app.
-
-

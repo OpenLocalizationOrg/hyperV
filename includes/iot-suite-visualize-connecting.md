@@ -8,7 +8,7 @@ The dashboard in the remote monitoring solution enables you to view the telemetr
 
     ![][18]
 
-3. In the dashboard, select your device in the **Device to View** drop-down to view its telemetry. The telemetry from the sample application is 50 units for internal temperature, 55 units for external temperature, and 50 units for humidity. Note that by default the dashboard displays only temperature and humidity values.
+3. Click **Dashboard** to return to the dashboard, select your device in the **Device to View** drop-down to view its telemetry. The telemetry from the sample application is 50 units for internal temperature, 55 units for external temperature, and 50 units for humidity. Note that by default the dashboard displays only temperature and humidity values.
 
     ![][img-telemetry]
 
@@ -42,5 +42,3 @@ The article [Customizing preconfigured solutions][lnk-customize] describes some 
 [img-telemetry]: ./media/iot-suite-visualize-connecting/telemetry.png
 [lnk-customize]: ../articles/iot-suite/iot-suite-guidance-on-customizing-preconfigured-solutions.md
 [lnk-dev-messaging]: ../articles/iot-hub/iot-hub-devguide.md#messaging
-
-

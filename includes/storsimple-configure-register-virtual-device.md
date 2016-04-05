@@ -19,4 +19,3 @@
 After the configuration and registration is complete, the device will come online. (It may take several minutes for the device to come online.)
 
 ![StorSimple virtual device online stage](./media/storsimple-configure-register-virtual-device/StorSimple_VirtualDeviceOnline1M.png)
-

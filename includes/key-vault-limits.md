@@ -1,5 +1,5 @@
 
-| Transactions Type | Max transactions allowed in 10 seconds, per vault per region
+| Transactions Type	| Max transactions allowed in 10 seconds, per vault per region
 --- | ---
 | HSM- CREATE KEY | 5
 | HSM- other transactions | 1000
@@ -8,5 +8,3 @@
 | All secrets, vault related transactions | 2000
  
  
-
-

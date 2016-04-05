@@ -20,5 +20,3 @@ Here's an alternative that takes advantage of the fact that the deployment scrip
 ### Option 3: Customize deployment script
 
 If you've customized the deployment script, you can change the code in deploy.cmd to force it to delete the env folder.
-
-

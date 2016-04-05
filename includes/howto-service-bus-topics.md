@@ -17,7 +17,7 @@ To begin using Service Bus topics and subscriptions in Azure, you must first cre
 
 To create a service namespace:
 
-1.  Log on to the [Azure portal][].
+1.  Log on to the [Azure classic portal][].
 
 2.  In the left navigation pane of the portal, click **Service Bus**.
 
@@ -29,11 +29,11 @@ To create a service namespace:
 
 5.  After making sure the namespace name is available, choose the country or region in which your namespace should be hosted (make sure you use the same country/region in which you are deploying your compute resources).
 
-    > [AZURE.IMPORTANT] Pick the **same region** that you intend to choose for deploying your application. This will give you the best performance.
+	> [AZURE.IMPORTANT] Pick the **same region** that you intend to choose for deploying your application. This will give you the best performance.
 
-6.  Leave the other fields in the dialog with their default values (**Messaging** and **Standard Tier**), then click the check mark. The system now creates your service namespace and enables it. You might have to wait several minutes as the system provisions resources for your account.
+6. 	Leave the other fields in the dialog with their default values (**Messaging** and **Standard Tier**), then click the check mark. The system now creates your service namespace and enables it. You might have to wait several minutes as the system provisions resources for your account.
 
-    ![][6]
+	![][6]
 
 ## Obtain the default management credentials for the namespace
 
@@ -53,13 +53,11 @@ In order to perform management operations, such as creating a topic or subscript
 4.  In the **Access connection information** dialog, find the connection string that contains the SAS key and key name. Make a note of these values, as you will use this information later to perform operations with the namespace. 
 
 
-  [Azure portal]: http://manage.windowsazure.com
+  [Azure classic portal]: http://manage.windowsazure.com
   [0]: ./media/howto-service-bus-topics/sb-queues-13.png
   [2]: ./media/howto-service-bus-topics/sb-queues-04.png
   [3]: ./media/howto-service-bus-topics/sb-queues-09.png
   [4]: ./media/howto-service-bus-topics/sb-queues-06.png
   
   [6]: ./media/howto-service-bus-topics/getting-started-multi-tier-27.png
-
-
 

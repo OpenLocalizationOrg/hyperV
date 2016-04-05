@@ -11,9 +11,9 @@
 
 ## Using Azure CLI with Azure Resource Manager (ARM)
 
-Before you can use the Azure CLI with Resource Manager commands and templates to deploy Azure resources and workloads using resource groups, you will need an account with Azure (of course). If you do not have an account, you can get a [free Azure trial here](http://azure.microsoft.com/pricing/free-trial/).
+Before you can use the Azure CLI with Resource Manager commands and templates to deploy Azure resources and workloads using resource groups, you will need an account with Azure (of course). If you do not have an account, you can get a [free Azure trial here](https://azure.microsoft.com/pricing/free-trial/).
 
-> [AZURE.NOTE] If you don't already have an Azure account but you do have a subscription to MSDN subscription, you can get free Azure credits by activating your [MSDN subscriber benefits here](http://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/) -- or you can use the free account. Either will work for Azure access.
+> [AZURE.NOTE] If you don't already have an Azure account but you do have a subscription to MSDN subscription, you can get free Azure credits by activating your [MSDN subscriber benefits here](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/) -- or you can use the free account. Either will work for Azure access.
 
 ### Step 1: Verify the Azure CLI version
 
@@ -35,7 +35,7 @@ To see if you have one, log in by typing `azure login` and using your work or sc
     warn:    Please note that currently you can login only via Microsoft organizational account or service principal. For instructions on how to set them up, please read http://aka.ms/Dhf67j.
     Username: ahmet@contoso.onmicrosoft.com
     Password: *********
-  	|info:    Added subscription Visual Studio Ultimate with MSDN
+    |info:    Added subscription Visual Studio Ultimate with MSDN
     info:    Setting subscription Visual Studio Ultimate with MSDN as default
     info:    Added subscription Azure Free Trial
     +
@@ -63,5 +63,3 @@ To use the Azure Resource Management (ARM) mode with the Azure CLI, type `azure 
     info:    New mode is arm
 
 > [AZURE.NOTE] You can switch back to use Azure service management commands by typing `azure config mode asm`.
-
-

@@ -5,17 +5,17 @@ Use the procedure that matches your backend project type&mdash;either [.NET back
 
 3. In the server project, open **Controllers** > **TodoItemController.cs**, and add the following using statements:
 
-        using System.Collections.Generic;
-        using Microsoft.Azure.NotificationHubs;
-        using Microsoft.Azure.Mobile.Server.Config;
-    
+		using System.Collections.Generic;
+		using Microsoft.Azure.NotificationHubs;
+		using Microsoft.Azure.Mobile.Server.Config;
+	
 
 2. In the **PostTodoItem** method, add the following code after the call to **InsertAsync**:  
 
         // Get the settings for the server project.
         HttpConfiguration config = this.Configuration;
         MobileAppSettingsDictionary settings = 
-            this.Configuration.GetMobileAppSettingsProvider().GetMobileAppSettings();
+			this.Configuration.GetMobileAppSettingsProvider().GetMobileAppSettings();
         
         // Get the Notification Hubs credentials for the Mobile App.
         string notificationHubName = settings.NotificationHubName;
@@ -48,52 +48,55 @@ Use the procedure that matches your backend project type&mdash;either [.NET back
 
     This code tells the notification hub to send a a template notification to all template registrations that contain "messageParam". The string will be inserted in the place of messageParam across each PNS that has a registration using "messageParam". This allows you to send the notification to APNS, GCM, WNS, or any other PNS.
 
-    For more information on templates with Notification Hubs, see [Templates](notification-hubs-templates.md). 
+	For more information on templates with Notification Hubs, see [Templates](notification-hubs-templates.md).
+
+4. Republish the server project. 
 
 ### <a name="nodejs"></a>Node.js backend project
 
-1. Replace the existing code in the todoitem.js file with the following:
+1. If you haven't already done so, [download the quickstart project](app-service-mobile-node-backend-how-to-use-server-sdk.md#download-quickstart) or else use the [online editor in the Azure portal](app-service-mobile-node-backend-how-to-use-server-sdk.md#online-editor).
 
-        var azureMobileApps = require('azure-mobile-apps'),
-        promises = require('azure-mobile-apps/src/utilities/promises'),
-        logger = require('azure-mobile-apps/src/logger');
-    
-        var table = azureMobileApps.table();
-        
-        table.insert(function (context) {
-        // For more information about the Notification Hubs JavaScript SDK, 
-        // see http://aka.ms/nodejshubs
-        logger.info('Running TodoItem.insert');
-        
-        // Define the template payload.
-        var payload = '{"messageParam": context.item.text}'; 
-        
-        // Execute the insert.  The insert returns the results as a Promise,
-        // Do the push as a post-execute action within the promise flow.
-        return context.execute()
-            .then(function (results) {
-                // Only do the push if configured
-                if (context.push) {
-                    // Send a template notification.
-                    context.push.send(null, payload, function (error) {
-                        if (error) {
-                            logger.error('Error while sending push notification: ', error);
-                        } else {
-                            logger.info('Push notification sent successfully!');
-                        }
-                    });
-                }
-                // Don't forget to return the results from the context.execute()
-                return results;
-            })
-            .catch(function (error) {
-                logger.error('Error while running context.execute: ', error);
-            });
-        });
+2. Replace the existing code in the todoitem.js file with the following:
 
-        module.exports = table;  
+		var azureMobileApps = require('azure-mobile-apps'),
+	    promises = require('azure-mobile-apps/src/utilities/promises'),
+	    logger = require('azure-mobile-apps/src/logger');
+	
+		var table = azureMobileApps.table();
+		
+		table.insert(function (context) {
+	    // For more information about the Notification Hubs JavaScript SDK, 
+	    // see http://aka.ms/nodejshubs
+	    logger.info('Running TodoItem.insert');
+	    
+	    // Define the template payload.
+	    var payload = '{"messageParam": context.item.text}'; 
+	    
+	    // Execute the insert.  The insert returns the results as a Promise,
+	    // Do the push as a post-execute action within the promise flow.
+	    return context.execute()
+	        .then(function (results) {
+	            // Only do the push if configured
+	            if (context.push) {
+					// Send a template notification.
+	                context.push.send(null, payload, function (error) {
+	                    if (error) {
+	                        logger.error('Error while sending push notification: ', error);
+	                    } else {
+	                        logger.info('Push notification sent successfully!');
+	                    }
+	                });
+	            }
+	            // Don't forget to return the results from the context.execute()
+	            return results;
+	        })
+	        .catch(function (error) {
+	            logger.error('Error while running context.execute: ', error);
+	        });
+		});
 
-    This sends a template notification that contains the item.text when a new todo item is inserted.
+		module.exports = table;  
 
-2. When editing the file in your local computer, republish the server project.
+	This sends a template notification that contains the item.text when a new todo item is inserted.
 
+2. When editing the file on your local computer, republish the server project.

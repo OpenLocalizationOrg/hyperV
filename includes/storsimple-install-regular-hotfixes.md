@@ -18,5 +18,3 @@
 4. When prompted, supply the path to the network shared folder that contains the hotfix files.
 
 5. You will be prompted for confirmation. Type **Y** to proceed with the hotfix installation.
-
-

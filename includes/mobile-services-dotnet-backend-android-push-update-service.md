@@ -1,8 +1,8 @@
 
 1. In Visual Studio Solution Explorer, expand the **Controllers** folder in the mobile service project. Open TodoItemController.cs. At the top of the file, add the following `using` statements:
 
-        using System;
-        using System.Collections.Generic;
+		using System;
+		using System.Collections.Generic;
 
 2. Update the `PostTodoItem` method definition with the following code:  
 
@@ -31,4 +31,3 @@
     This code will send a push notification (with the text of the inserted item) after inserting a todo item. In the event of an error, the code will add an error log entry which is viewable on the **Logs** tab of the mobile service in the [Azure classic portal](https://manage.windowsazure.com/).
 
 3. Republish your mobile service project to Azure.
-

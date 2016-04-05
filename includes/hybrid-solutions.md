@@ -100,5 +100,3 @@ Connecting applications has always been part of building complete solutions, and
 [topics-subs]: ./media/hybrid-solutions/SvcBus_03_topicsandsubscriptions.png
 [relay]: ./media/hybrid-solutions/SvcBus_04_relay.png
 [Event Hubs overview]: https://msdn.microsoft.com/library/azure/dn836025.aspx
-
-

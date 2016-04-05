@@ -119,5 +119,3 @@ Working with identity is important in nearly every application. The goal of Acce
 ##About the Author
 
 David Chappell is Principal of Chappell & Associates [www.davidchappell.com](http://www.davidchappell.com) in San Francisco, California.
-
-

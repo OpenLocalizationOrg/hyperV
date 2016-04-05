@@ -12,5 +12,3 @@ Unlock account after **X** minutes|Not Set|9999
 
 
 <sup>1</sup>This is expected to increase in the future.
-
-

@@ -8,4 +8,3 @@
 - [FAQ](../articles/active-directory/active-directory-passwords-faq.md)
 - [Troubleshooting](../articles/active-directory/active-directory-passwords-troubleshoot.md)
 - [Learn more](../articles/active-directory/active-directory-passwords-learn-more.md)
-

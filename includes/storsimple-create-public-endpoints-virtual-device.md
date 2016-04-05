@@ -1,12 +1,12 @@
 #### To create public endpoints on the virtual device
 
-1. Sign in to the Management Portal.
+1. Sign in to the Azure classic portal.
 
 - Click **Virtual Machines**, and then select the virtual machine that is being used as your virtual device.
 
-- Click **Endpoints**. The Endpoints page lists all endpoints for the virtual machine.
+- Click **Endpoints**. The **Endpoints** page lists all endpoints for the virtual machine.
 
-- Click **Add**. The Add Endpoint dialog box appears. Click the arrow to continue.
+- Click **Add**. The **Add Endpoint** dialog box appears. Click the arrow to continue.
 
 - For the **Name**, type the following name for the endpoint: **WinRMHttps**.
 
@@ -19,4 +19,3 @@
 - Click the check mark to create the endpoint.
 
 After the endpoint is created, you can view its details to determine the Public Virtual IP (VIP) address. Record this address.
-

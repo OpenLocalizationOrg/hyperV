@@ -38,5 +38,3 @@
 
 <!-- URLs. -->
 [How to add a new Windows Firewall port rule]:  http://go.microsoft.com/fwlink/?LinkId=392240
-
-

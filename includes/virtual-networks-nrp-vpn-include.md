@@ -9,4 +9,3 @@ Key properties of a VPN gateway include:
  
 - **Gateway type** - dynamically routed or a static routed gateway. 
 - **VPN Client Address Pool Prefix** – IP addresses to be assigned to clients connecting in a point to site configuration.
-

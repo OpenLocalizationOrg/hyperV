@@ -8,7 +8,7 @@
 | Maximum number of schedules per bandwidth template | 168 | A schedule for every hour, every day of the week (24*7). |
 | Maximum size of a tiered volume on physical devices | 64 TB for 8100 and 8600 | 8100 and 8600 are physical devices. |
 | Maximum size of a tiered volume on virtual devices in Azure | 30 TB for 8010 <br></br> 64 TB for 8020 | 8010 and 8020 are virtual devices in Azure that use Standard Storage and Premium Storage respectively. |
-| Maximum size of a locally pinned volume on physical devices | 10 TB for 8100 <br></br> 25 TB for 8600 | 8100 and 8600 are physical devices. |
+| Maximum size of a locally pinned volume on physical devices | 9 TB for 8100 <br></br> 24 TB for 8600 | 8100 and 8600 are physical devices. |
 | Maximum number of iSCSI connections | 512 | |
 | Maximum number of iSCSI connections from initiators | 512 | |
 | Maximum number of access control records per device | 64 | |
@@ -26,5 +26,3 @@
 | Maximum client read/write throughput (when served from the cloud tier)* | 11/41 MB/s | Read throughput depends on clients generating and maintaining sufficient I/O queue depth. |
 
 &#42; Maximum throughput per I/O type was measured with 100 percent read and 100 percent write scenarios. Actual throughput may be lower and depends on I/O mix and network conditions.
-
-

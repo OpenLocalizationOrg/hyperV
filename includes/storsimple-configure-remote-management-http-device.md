@@ -12,4 +12,3 @@
 5. Click **Download Remote Management Certificate** to download a remote management certificate. You will specify a location in which to save this file. This certificate then needs to be installed on the client or host machine that you will use to connect to the virtual device.
 
 6. Click **Save** at the bottom of the page.
-

@@ -36,4 +36,3 @@ In this section you add two new users to your directory along with the new Sales
 4. Navigate back to your mobile service configuration page and add the object id as an app setting named **AAD\_SALES\_GROUP\_ID**. This tutorial uses group's object id as an app setting instead of looking up the id based on the group name. This is because the group name may change where the id stays the same.
 
     ![](./media/mobile-services-aad-rbac-create-sales-group/sales-group-id-app-setting.png)
-

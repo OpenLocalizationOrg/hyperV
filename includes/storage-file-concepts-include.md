@@ -20,7 +20,7 @@ File storage contains the following components:
 ![files-concepts][files-concepts]
 
 -   **Storage Account:** All access to Azure Storage is done
-    through a storage account. See [Azure Storage Scalability and Performance Targets](http://msdn.microsoft.com/library/azure/dn249410.aspx) for details about storage account capacity.
+    through a storage account. See [Azure Storage Scalability and Performance Targets](../articles/storage/storage-scalability-targets.md) for details about storage account capacity.
 
 -   **Share:** A File storage share is an SMB file share in Azure. 
     All directories and files must be created in a parent share. An account can contain an
@@ -29,7 +29,7 @@ File storage contains the following components:
 
 -   **Directory:** An optional hierarchy of directories. 
 
--   **File:** A file in the share. A file may be up to 1 TB in size.
+-	**File:** A file in the share. A file may be up to 1 TB in size.
 
 -   **URL format:** Files are addressable using the following URL
     format:   
@@ -43,4 +43,3 @@ File storage contains the following components:
 For details about how to name shares, directories, and files, see [Naming and Referencing Shares, Directories, Files, and Metadata](http://msdn.microsoft.com/library/azure/dn167011.aspx).
 
 [files-concepts]: ./media/storage-file-concepts-include/files-concepts.png
-

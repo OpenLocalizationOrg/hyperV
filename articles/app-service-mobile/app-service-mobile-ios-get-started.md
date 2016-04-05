@@ -1,26 +1,24 @@
 <properties
-    pageTitle="Create an iOS app on Azure App Service Mobile Apps | Microsoft Azure"
-    description="Follow this tutorial to get started with using Azure mobile app backends for iOS development in Objective-C or Swift"
-    services="app-service\mobile"
-    documentationCenter="ios"
-    authors="krisragh"
-    manager="dwrede"
-    editor=""/>
+	pageTitle="Create an iOS app on Azure App Service Mobile Apps | Microsoft Azure"
+	description="Follow this tutorial to get started with using Azure mobile app backends for iOS development in Objective-C or Swift"
+	services="app-service\mobile"
+	documentationCenter="ios"
+	authors="krisragh"
+	manager="dwrede"
+	editor=""/>
 
 <tags
-    ms.service="app-service-mobile"
-    ms.workload="na"
-    ms.tgt_pltfrm="mobile-ios"
-    ms.devlang="objective-c"
-    ms.topic="hero-article"
-    ms.date="11/30/2015"
-    ms.author="krisragh"/>
+	ms.service="app-service-mobile"
+	ms.workload="na"
+	ms.tgt_pltfrm="mobile-ios"
+	ms.devlang="objective-c"
+	ms.topic="hero-article"
+	ms.date="03/09/2016"
+	ms.author="krisragh"/>
 
 #Create an iOS app
 
 [AZURE.INCLUDE [app-service-mobile-selector-get-started](../../includes/app-service-mobile-selector-get-started.md)]
-&nbsp;  
-[AZURE.INCLUDE [app-service-mobile-note-mobile-services](../../includes/app-service-mobile-note-mobile-services.md)]
 
 ## Overview
 
@@ -30,7 +28,7 @@ This tutorial shows you how to use a cloud-based backend service ([Azure Mobile 
 
 To complete this tutorial, you need the following:
 
-* An [active Azure account](http://azure.microsoft.com/pricing/free-trial/)
+* An [active Azure account](https://azure.microsoft.com/pricing/free-trial/)
 
 * A PC with [Visual Studio Community 2013] or newer
 
@@ -68,5 +66,3 @@ You have now provisioned an Azure Mobile App backend that can be used by your mo
 [Azure portal]: https://portal.azure.com/
 [Xcode]: https://go.microsoft.com/fwLink/p/?LinkID=266532
 [Visual Studio Community 2013]: https://go.microsoft.com/fwLink/p/?LinkID=534203
-
-

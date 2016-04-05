@@ -20,4 +20,3 @@
 > [AZURE.NOTE] The service registration key is used to register all the devices that need to register with your StorSimple Manager service.
 
  
-

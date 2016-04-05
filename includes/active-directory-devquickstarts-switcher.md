@@ -6,4 +6,3 @@
 - [Windows Store](active-directory-devquickstarts-windowsstore.md)
 - [Xamarin](active-directory-devquickstarts-xamarin.md)
 - [Cordova](active-directory-devquickstarts-cordova.md)
-

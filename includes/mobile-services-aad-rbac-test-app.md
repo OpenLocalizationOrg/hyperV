@@ -19,5 +19,3 @@ The instructions and screenshots below apply to testing a Windows Store client b
 
 
 
-
-

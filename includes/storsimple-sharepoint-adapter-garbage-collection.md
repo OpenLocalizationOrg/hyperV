@@ -14,13 +14,13 @@ In this procedure, you will:
 
 1. On the Web front-end server, open the SharePoint 2013 Management Shell as an administrator.
 
-2. Navigate to the folder <boot drive>:\Program Files\Microsoft SQL Remote Blob Storage 10.50\Maintainer\.
+2. Navigate to the folder *boot drive*:\Program Files\Microsoft SQL Remote Blob Storage 10.50\Maintainer\.
 
 3. Rename **Microsoft.Data.SqlRemoteBlobs.Maintainer.exe.config** to **web.config**.
 
 4. Use `aspnet_regiis -pdf connectionStrings` to decrypt the web.config file.
 
-5. In the decrypted web.config file, under the **<connectionStrings>** node, add the connection string for your SQL server instance and the content database name. See the following example.
+5. In the decrypted web.config file, under the `connectionStrings` node, add the connection string for your SQL server instance and the content database name. See the following example.
 
     `<add name=”RBSMaintainerConnectionWSSContent” connectionString="Data Source=SHRPT13-SQL12\SHRPT13;Initial Catalog=WSS_Content;Integrated Security=True;Application Name=&quot;Remote Blob Storage Maintainer for WSS_Content&quot;" providerName="System.Data.SqlClient" />`
 
@@ -63,5 +63,3 @@ In this procedure, you will:
       `exec mssqlrbs.rbs_sp_set_config_value ‘orphan_scan_period’ , ’days 30’`
 
 2. On the web front-end server, in **Central Administration**, edit the **Web Application General Settings** for the desired content database to re-enable the Recycle Bin. To do this, click **Central Administration** -> **Application Management** -> **Web Applications (Manage web applications)** -> **SharePoint - 80** -> **General Application Settings**. Set the Recycle Bin Status to **ON**.
-
-

@@ -1,32 +1,30 @@
 <properties
-    pageTitle="Add Push Notifications to iOS App with Azure  Mobile Apps"
-    description="Learn how to use Azure Mobile Apps to send push notifications to your iOS app."
-    services="app-service\mobile"
-    documentationCenter="ios"
-    manager="dwrede"
-    editor=""
-    authors="krisragh"/>
+	pageTitle="Add Push Notifications to iOS App with Azure  Mobile Apps"
+	description="Learn how to use Azure Mobile Apps to send push notifications to your iOS app."
+	services="app-service\mobile"
+	documentationCenter="ios"
+	manager="dwrede"
+	editor=""
+	authors="krisragh"/>
 
 <tags
-    ms.service="app-service-mobile"
-    ms.workload="mobile"
-    ms.tgt_pltfrm="mobile-ios"
-    ms.devlang="objective-c"
-    ms.topic="article"
-    ms.date="11/25/2015"
-    ms.author="krisragh"/>
+	ms.service="app-service-mobile"
+	ms.workload="mobile"
+	ms.tgt_pltfrm="mobile-ios"
+	ms.devlang="objective-c"
+	ms.topic="article"
+	ms.date="03/09/2016"
+	ms.author="krisragh"/>
 
 
 # Add Push Notifications to your iOS App
 
 [AZURE.INCLUDE [app-service-mobile-selector-get-started-push](../../includes/app-service-mobile-selector-get-started-push.md)]
-&nbsp;  
-[AZURE.INCLUDE [app-service-mobile-note-mobile-services](../../includes/app-service-mobile-note-mobile-services.md)]
 
 ## Overview
-In this tutorial, you add push notifications to the [iOS quick start] project so that every time a record is inserted, a push notification is sent. This tutorial is based on the [iOS quick start] tutorial, which you must complete first. If you do not use the downloaded quick start server project, you must add the push notification extension package to your project. For more information about server extension packages, see [Work with the .NET backend server SDK for Azure Mobile Apps](app-service-mobile-dotnet-backend-how-to-use-server-sdk.md). 
+In this tutorial, you add push notifications to the [iOS quick start] project so that every time a record is inserted, a push notification is sent. This tutorial is based on the [iOS quick start] tutorial, which you must complete first. If you do not use the downloaded quick start server project, you must add the push notification extension package to your project. For more information about server extension packages, see [Work with the .NET backend server SDK for Azure Mobile Apps](app-service-mobile-dotnet-backend-how-to-use-server-sdk.md).
 
-The [iOS simulator does not support push notifications](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/TestingontheiOSSimulator.html), so for this tutorial, you need a physical iOS device and an [Apple Developer Program membership](https://developer.apple.com/programs/ios/). 
+The [iOS simulator does not support push notifications](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/TestingontheiOSSimulator.html), so for this tutorial, you need a physical iOS device and an [Apple Developer Program membership](https://developer.apple.com/programs/ios/).
 
 ##<a name="create-hub"></a>Create a Notification Hub
 
@@ -43,10 +41,6 @@ The [iOS simulator does not support push notifications](https://developer.apple.
 ##<a id="update-server"></a>Update server project to send push notifications
 
 [AZURE.INCLUDE [app-service-mobile-dotnet-backend-configure-push-apns](../../includes/app-service-mobile-dotnet-backend-configure-push-apns.md)]
-
-## <a name="publish-the-service"></a>Deploy server project to Azure
-
-[AZURE.INCLUDE [app-service-mobile-dotnet-backend-publish-service](../../includes/app-service-mobile-dotnet-backend-publish-service.md)]
 
 ## <a id="add-push"></a>Add push notifications to app
 
@@ -75,5 +69,3 @@ The [iOS simulator does not support push notifications](https://developer.apple.
 
 <!-- URLs. -->
 [iOS quick start]: app-service-mobile-ios-get-started.md
-
-

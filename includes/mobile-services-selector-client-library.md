@@ -5,5 +5,3 @@
 - [Managed (Windows/Xamarin)](../articles/mobile-services-dotnet-how-to-use-client-library.md)
 
 
-
-

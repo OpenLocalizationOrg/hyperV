@@ -29,4 +29,3 @@
 
 7. Click **Open** to start a serial session.
  
-

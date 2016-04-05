@@ -17,4 +17,3 @@
 8. Review all the failover settings on the **Confirm failover** page. If they are correct, click the check icon.
 
 The failover process will begin. When the failover is finished, go to the Devices page and select the virtual device that was used as the target for the failover process. Go to the Volume Containers page. All the volume containers, along with the volumes from the old device should appear.
-

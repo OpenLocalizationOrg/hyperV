@@ -15,5 +15,3 @@ same location used for the web app. The pricing tier and worker size are specifi
         "numberOfWorkers": 1
       }
     },
-
-

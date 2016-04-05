@@ -8,4 +8,3 @@ The following are screen captures from the completed app:
 <br/>Windows Phone Store app
 
 Completing this tutorial is a prerequisite for all other Mobile Services tutorials for Windows Store and Windows Phone Store apps. 
-

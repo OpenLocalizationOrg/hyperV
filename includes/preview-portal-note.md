@@ -6,5 +6,3 @@
 > If you are not currently logged into your Azure subscription, you will be prompted to log in when you visit the [Preview portal](https://portal.azure.com/).
 
 
-
-
