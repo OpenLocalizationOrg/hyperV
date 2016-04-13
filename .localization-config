@@ -11,9 +11,9 @@
             {
                "priority":"AcomDC_HI",
                "locales":[
-                  "nl-nl",
-                  "de-de",
-                  "zh-tw"
+                  "hu-hu",
+                  "es-es",
+                  "ko-kr"
                ]
             }
          ]
@@ -27,8 +27,8 @@
             {
                "priority":"AcomDC_nonHI",
                "locales":[
-                  "de-de",
-                  "zh-tw"
+                  "es-es",
+                  "ko-kr"
                ]
             }
          ]
