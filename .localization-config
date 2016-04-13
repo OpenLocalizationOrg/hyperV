@@ -1,44 +1,40 @@
 {
-   "filters":[  
-      {  
-         "metadata":{  
-            "ms.topic":[  
+   "filters":[
+      {
+         "metadata":{
+            "ms.topic":[
                "hero-article",
                "get-started-article"
             ]
          },
-         "priorities":[  
-            {  
+         "priorities":[
+            {
                "priority":"AcomDC_HI",
-               "locales":[  
-                  "de-de",
+               "locales":[
                   "nl-nl",
+                  "de-de",
                   "zh-tw"
                ]
             }
          ]
       },
-      {  
-         "files":[  
-            "!articles/app-service/app-service-scale*.md",
+      {
+         "files":[
+            "!articles/guidance/*.md",
             "**/*.md"
          ],
-         "priorities":[  
-            {  
+         "priorities":[
+            {
                "priority":"AcomDC_nonHI",
-               "locales":[  
-               
-                  "ja-jp",
-                  "zh-tw",
-                  "nl-nl",
-                  "pl-pl",
-                  "pt-br"
+               "locales":[
+                  "de-de",
+                  "zh-tw"
                ]
             }
          ]
       }
    ],
-  "includeDependencies": true,
-  "autoPush": true,
+  "includeDependencies": false,
+  "autoPush": false,
   "xliffVersion": "1.2"
 }
