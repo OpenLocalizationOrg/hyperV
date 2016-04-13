@@ -20,8 +20,9 @@
       },
       {
          "files":[
-            "!articles/guidance/*.md",
-            "**/*.md"
+            "!Acom/articles/guidance/*.md",
+            "Acom/*.md",
+            "Acom/**/*.md"
          ],
          "priorities":[
             {
